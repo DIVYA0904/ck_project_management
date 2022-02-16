@@ -81,7 +81,7 @@
                                             <span id="emp_keyskill_error" class="text-danger"></span>
                                             <input type="hidden" class="form-control" name="emp_id"  id="emp_id" placeholder="Key Skills" value="<?php echo $this->session->userdata('emp_id'); ?>" aria-label="no" required>
                                             <button type="button"  onclick="setTimeout(function(){ window.location.href='<?php echo base_url();?>users'; }, 1000);" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                            <button type="submit" id="edit" name="edit" value="submit"  class="btn btn-success"><i class="ti-save"></i> Edit</button>
+                                            <button type="submit" id="edit" name="edit" value="submit"  class="btn btn-success"><i class="ti-save"></i> Update</button>
                                         </form>                                
                                     </div>
                                     <div class="col-lg-6 col-xl-0 col-md-5">
