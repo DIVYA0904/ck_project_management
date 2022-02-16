@@ -1,0 +1,221 @@
+/******************************************************
+Header
+********************************************************/
+/* 
+.hema_logo{
+    width: 75%;
+} */
+
+.topbar .top-navbar .navbar-header .navbar-brand .logo-icon.hema_logo_icon {
+    margin-right: 40px;
+    text-align: left;
+}
+
+/******************************************************
+Login
+********************************************************/
+.login_logo{
+    width: 65%;
+}
+
+/******************************************************
+Login
+********************************************************/
+.edit_icon{
+    color: #4798e8;
+}
+
+.delete_icon{
+    color: #ef6e6e;
+}
+
+.reload_icon{
+    color: #6eefa4;
+}
+
+/******************************************************
+Switch
+********************************************************/
+.switch_active {
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 14px;
+  }
+  
+  .switch_active input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 15px;
+    width: 15px;
+    left: 0px;
+    bottom: 0px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+
+  }
+  
+  input:checked + .slider.project_action {
+  
+    margin-left: 29px;
+    margin-top: -20px;
+  }
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(16px);
+    -ms-transform: translateX(16px);
+    transform: translateX(16px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    width: 30px;
+    margin-top: 5px;
+    height: 14px;
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+  /* Department */
+.dept_table_border{
+  border: 1px solid #e9ecef;
+}
+
+.table-bordered, .table-bordered td, .table-bordered th {
+    border: 1px solid #e9ecef !important;
+}
+
+
+/******************************************************
+DataTable
+********************************************************/
+
+.dataTables_length{
+  display: none;
+}
+
+.btn-sm.datable-act-btn{
+  width: 27px;
+  padding-left: 7px;
+}
+
+
+/******************************************************
+Dashboard
+********************************************************/
+/* 
+.card-border{
+   border-radius: 10px; 
+} */
+
+.btn-circle.btn-lg, .btn-group-lg>.btn-circle.btn.project-div-circle{
+  margin-left: 15px;
+  margin-top: 5px;
+}
+
+.col-7.project-div{
+  margin-left: -24px;
+}
+
+.progress.project-progress-div{
+  width: 155px;
+}
+/******************************************************
+File Upload Image
+********************************************************/
+
+.rounded-circle.image-size{
+  width: 50px;
+}
+
+#barchart_dept{
+    width: 900px;
+    height: 500px;
+    position: relative;
+  }
+
+
+/******************************************************
+******************************************************
+Responsive
+******************************************************
+********************************************************/
+
+/* left side bar */
+
+  @media (min-width:768px) and (max-width:1170px){
+    .hema_logo_responsive{
+      display: none;
+    }
+    .hema_logo_res{
+      width: 40px;
+      height: 40px;
+    }
+  }
+
+  @media  (max-width:768px){
+    .hema_logo_res{
+      display: none;
+    }
+  }
+
+  @media(min-width:1170px){
+    .hema_logo_res{
+      display: none;
+    }
+  }
+
+  @media (min-width: 576px){
+    .modal-dialog.modal-viewtaskmodel {
+      max-width: 1000px;
+    }
+    /* #barchart_dept{
+      width: 900px;
+      height: 500px;
+    } */
+  }
+
+  @media (min-width: 990px){
+    .prt_tl_clear_btn{
+      margin-top: -17px !important;
+    }
+    
+  }
+
+  /* @media only screen and (max-width: 600px){
+    #barchart_dept{
+      width: 350px;
+      height: 85%;
+    }
+  } */
+
+  
