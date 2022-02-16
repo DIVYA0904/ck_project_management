@@ -50,6 +50,8 @@
                             <div class="card-body">
                                 <div class="d-flex no-block align-items-center m-b-30">
                                     <h4 class="card-title">Add Users</h4>
+                                    <h4 class="card-title">Add Client</h4>
+
                                 </div>
                                 <div class="row">
                                     <div class="col-lg-6 col-xl-12 col-md-7">
