@@ -47,6 +47,8 @@
                                         <option value="Team Leader">Team Leader</option>
                                         <option value="Team Member">Team Member</option>
                                         <option value="Client">Client</option>
+                                        <option value="Client">Durga</option>
+                                        <option value="Client">Divya</option>
                                     </select>                                
                                 </div>
                                 <div class="input-group mb-3">
